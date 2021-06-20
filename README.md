@@ -6,7 +6,7 @@ Mixed-messages is a program that outputs a random message to the console. In thi
 
 Javascript ES6
 
-## Launch
+## :wrench: How To Launch Project Locally
 
 To run this program, install it locally with node:  
 
@@ -25,7 +25,7 @@ Run the program with:
 
 ## Status
 
-This project is still being worked on.
+In progress
 
 ## Sources
 
