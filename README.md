@@ -14,9 +14,24 @@ To run this program, install it locally with node:
 
 2. Once that is done, run the command `brew install node`
 
-3.
+3. Go to the directory that contains the project
+
+4. Type `node mixed-messages.js` to run the program.
 
 Run the program with:
 
 * node on the command line on a Mac
 * node on command prompt on a Windows computer
+
+## Status
+
+This project is still being worked on.
+
+## Sources
+
+Project assignment given by Codecademy.com
+
+## Other information
+
+Feel free to pull request your own version, I would love to compare and learn from others! :relaxed: 
+Or, you can add me on discord ( `sarahdadoun#1732` ) to chat.
