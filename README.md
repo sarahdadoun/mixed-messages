@@ -20,14 +20,7 @@ Javascript ES6
 
 ## :rocket: How To Launch Project Locally
 
-### :running: Run the program with
-
-* node on the command line on a Mac
-* node on command prompt on a Windows computer
-
-### :arrow_down: Downloads
-
-To run this program, install it locally with node:  
+### :running: Run the program with Node
 
 1. Open the terminal app and type `brew update`
 
@@ -36,6 +29,10 @@ To run this program, install it locally with node:
 3. Go to the directory that contains the project
 
 4. Type `node mixed-messages.js` to run the program.
+
+### :arrow_down: Downloads
+
+To run this program, install it locally with node:  
 
 ## :white_check_mark: Status
 
