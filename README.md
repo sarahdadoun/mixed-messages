@@ -6,7 +6,7 @@ Created with Javascript, mixed-messages is a program that outputs a random messa
 
 ## Table of Contents
 
-* [Technologies] (#Technologies)
+* [Technologies](#Technologies)
 * How to launch project locally
   * Run the program
   * Downloads
