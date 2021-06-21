@@ -22,6 +22,8 @@ Javascript ES6
 
 ### :running: Run the program with Node
 
+Install node:
+
 1. Open the terminal app and type `brew update`
 
 2. Once that is done, run the command `brew install node`
@@ -32,7 +34,7 @@ Javascript ES6
 
 ### :arrow_down: Downloads
 
-To run this program, install it locally with node:  
+coming soon
 
 ## :white_check_mark: Status
 
