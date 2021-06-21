@@ -1,12 +1,19 @@
-# :envelope: Mixed-Messages
+# :question: Mixed-Messages
 
 Mixed-messages is a program that outputs a random message to the console. In this case, inspirational quotes by famous people. It will generate a new message everytime the user begins or restarts the program. Created with Javascript, this project was given to me in a Codecademy course.
 
-## Languages
+## :wrench: Technologies
 
 Javascript ES6
 
-## :wrench: How To Launch Project Locally
+## How To Launch Project Locally
+
+### :running: Run the program with
+
+* node on the command line on a Mac
+* node on command prompt on a Windows computer
+
+### :arrow_down: Downloads
 
 To run this program, install it locally with node:  
 
@@ -18,20 +25,15 @@ To run this program, install it locally with node:
 
 4. Type `node mixed-messages.js` to run the program.
 
-Run the program with:
-
-* node on the command line on a Mac
-* node on command prompt on a Windows computer
-
-## Status
+## :white_check_mark: Status
 
 In progress
 
-## Sources
+## :bulb: Sources/Inspiration
 
 Project assignment given by Codecademy.com
 
-## Other information
+## :envelope: Contact Information
 
 Feel free to pull request your own version, I would love to compare and learn from others! :relaxed:
 Or, you can add me on discord ( `sarahdadoun#1732` ) to chat.
