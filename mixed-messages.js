@@ -8,10 +8,12 @@
     
 */
 
-// create an array with all messages.
+// DONE create an array with all messages. 
 // create a function that randomly prints one of the index's
 // create a function that prompts the user for an answer.
 // create a function that quits the program.
+
+// 28 indexes, each containing a quote from 'Friends'
 let quotes = [  "\"We were on a BREAK!\"", 
                 "\"See? He's her lobster.\"", 
                 "\"Hi, I'm Chandler. I make jokes when I'm uncomfortable.\"",
@@ -41,4 +43,23 @@ let quotes = [  "\"We were on a BREAK!\"",
                 "\"I can handle this. ‘Handle’ is my middle name. Actually, ‘handle’ is the middle of my first name.\" — Chandler",
                 "\"You can’t fire me! I make your decisions and I say, \‘I\’m not fired.\’ Ha.\" — Monica"];
 
-console.log(quotes[1]);
+
+// Picks random quote from the array 'quotes'
+// Picks random number to choose from the 'quote' array and returns it.
+function randomMessage(){
+    let randomNum = Math.floor(Math.random() * 27);
+    return randomNum;
+}
+
+function welcomeMessage(){
+    console.log("Welcome to the Friends program.\nTo print a quote, respond with either \'y\' or \'n\'.");
+}
+
+
+
+
+function startProgram(){
+
+}
+
+console.log(quotes[27]);
