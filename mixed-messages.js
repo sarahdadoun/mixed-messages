@@ -56,7 +56,7 @@ function printMessage(){
 
 }
 
-// User's response to either print new messages or quit the program
+// Takes in user's response and returns it if valid
 const userResponse = () => {
     let valid = false;
 
@@ -72,7 +72,6 @@ const userResponse = () => {
             console.log(`Oops! Looks like you're made a mistake.\nPlease respond with 'y' for yes, and 'n' for no.`);
         }
     }while(valid === false)
-    
     
 };
 
