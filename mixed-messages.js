@@ -51,14 +51,20 @@ function randomMessage(){
     return randomNum;
 }
 
-function welcomeMessage(){
+// Opening message that only appears when the programm starts
+function welcomeMessage(response){
     console.log("Welcome to the Friends program.\nTo print a quote, respond with either \'y\' or \'n\'.");
 }
 
+// User's response to either print new messages or quit the program
+const userResponse = () => {
+    const prompt = require('prompt-sync')({sigint: true});
+    let response = prompt('\n( y / n )\n');
+    return response;
+};
 
-
-
-function startProgram(){
+// Uses the function 'randomMessage to print a random message.
+function printMessage(){
 
 }
 
