@@ -6,7 +6,7 @@ Created with Javascript, mixed-messages is a program that outputs a random messa
 
 ## Table of Contents
 
-* [Technologies](#technologies)
+* [Technologies](#:wrench:technologies)
 * [How to launch project locally](#how-to-launch-project-locally)
   * [Run the program](#run-the-program)
   * [Downloads](#downloads)
@@ -14,13 +14,13 @@ Created with Javascript, mixed-messages is a program that outputs a random messa
 * [Sources/Inspiration](#sources/inspiration)
 * [Contact Information](#contact-information)
 
-## Technologies
+## :wrench: Technologies
 
 Javascript ES6
 
 ## How To Launch Project Locally :rocket: 
 
-### Run the program with Node :running: 
+### Run the program with Node:running: 
 
 Install node:
 
