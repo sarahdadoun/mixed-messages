@@ -60,7 +60,8 @@ function printMessage(){
 const userResponse = () => {
     do{ // Repeat until you get a valid response
         const prompt = require('prompt-sync')({sigint: true});
-        let response = prompt('\n( y / n )\n');
+        /* let response = prompt('\n( y / n )\n'); */
+        let response = prompt('');
 
         if (response === 'y' || 'n') { // if they answer with y or n
             /* valid = true; */
@@ -79,8 +80,8 @@ const userResponse = () => {
 };
 
 // Opening message that only appears when the programm starts
-function welcomeMessage(response){
-    console.log("\n\nWelcome to the Friends program.\nTo print a quote, respond with either \'y\' or \'n\'.");
+function welcomeMessage(){
+    console.log("\n\nWelcome to the \'Friends\' program.\nTo print a quote, type and enter \'y\'.\nTo quit the program, type \'n\'.");
 }
 
 welcomeMessage();
