@@ -2,7 +2,7 @@
 
 ## :mag_right: Description
 
-Created with Javascript, mixed-messages is a program that outputs a random message to the console each time it is executed. In this case, it prints inspirational quotes by famous people.
+Created with Javascript, mixed-messages is a program that outputs a random message to the console each time it is executed. In this case, it prints quotes from the TV show 'Friends'.
 
 ## Table of Contents
 
