@@ -14,13 +14,13 @@ Created with Javascript, mixed-messages is a program that outputs a random messa
 * [Sources/Inspiration](#sources/inspiration)
 * [Contact Information](#contact-information)
 
-## :wrench: Technologies
+## Technologies :wrench:
 
 Javascript ES6
 
-## :rocket: How To Launch Project Locally
+## How To Launch Project Locally :rocket: 
 
-### :running: Run the program with Node
+### Run the program with Node :running: 
 
 Install node:
 
