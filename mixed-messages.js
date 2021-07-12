@@ -57,33 +57,19 @@ function printMessage(){
 }
 
 // Takes in user's response and returns it if valid
-/* const userResponse = () => {
-    let valid = false;
-
+const userResponse = () => {
     do{ // Repeat until you get a valid response
         const prompt = require('prompt-sync')({sigint: true});
         let response = prompt('\n( y / n )\n');
 
         if (response === 'y' || 'n') { // if they answer with y or n
-            valid = true;
-            return response;
-        }
-        else{
-            console.log(`Oops! Looks like you're made a mistake.\nPlease respond with 'y' for yes, and 'n' for no.`);
-        }
-    }while(valid === false)
-    
-}; */
-function userResponse(){
-    let valid = false;
-
-    do{ // Repeat until you get a valid response
-        const prompt = require('prompt-sync')({sigint: true});
-        let response = prompt('\n( y / n )\n');
-
-        if (response === 'y' || 'n') { // if they answer with y or n
-            valid = true;
-            return response;
+            /* valid = true; */
+            if (response === 'y') {
+                return true;
+            }
+            else{
+                return false;
+            }
         }
         else{
             console.log(`Oops! Looks like you're made a mistake.\nPlease respond with 'y' for yes, and 'n' for no.`);
@@ -92,15 +78,13 @@ function userResponse(){
     
 };
 
-
 // Opening message that only appears when the programm starts
 function welcomeMessage(response){
     console.log("\n\nWelcome to the Friends program.\nTo print a quote, respond with either \'y\' or \'n\'.");
 }
 
 welcomeMessage();
-if (userResponse()) {
-    printMessage();
-}
 
-//console.log(quotes[27]);
+do{
+    printMessage();
+}while(userResponse());
