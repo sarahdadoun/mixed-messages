@@ -6,7 +6,7 @@ Created with Javascript, mixed-messages is a program that outputs a random messa
 
 ## Table of Contents
 
-* [Technologies](#:wrench:technologies)
+* [Technologies](#technologies)
 * [How to launch project locally](#how-to-launch-project-locally)
   * [Run the program](#run-the-program)
   * [Downloads](#downloads)
@@ -14,15 +14,15 @@ Created with Javascript, mixed-messages is a program that outputs a random messa
 * [Sources/Inspiration](#sources/inspiration)
 * [Contact Information](#contact-information)
 
-## :wrench: Technologies
+## 🔧 Technologies
 
 Javascript ES6
 
-## How To Launch Project Locally :rocket: 
+## 🚀 How To Launch Project Locally
 
-### Run the program with Node:running: 
+### 🏃🏻 Run the program
 
-Install node:
+Install node (if not already installed):
 
 1. Open the terminal app and type `brew update`
 2. Once that is done, run the command `brew install node`
@@ -35,19 +35,19 @@ Run the program:
 2. Press `enter`
 3. Type 'y' to let the program print a new message or type 'n' to quit the program.
 
-### :arrow_down: Downloads
+### ⬇️ Downloads
 
 coming soon
 
-## :white_check_mark: Status
+## ☑️ Status
 
 In progress
 
-## :bulb: Sources/Inspiration
+## 💡 Sources/Inspiration
 
 Project assignment given by Codecademy.com
 
-## :envelope: Contact Information
+## ✉️ Contact Information
 
 Feel free to pull request your own version, I would love to compare and learn from others! :relaxed:
 
