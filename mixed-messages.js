@@ -53,11 +53,28 @@ function randomMessage(){
 
 // Uses the function 'randomMessage to print a random message.
 function printMessage(){
-
+    console.log("\n\n" + quotes[randomMessage()] + "\n\n");
 }
 
 // Takes in user's response and returns it if valid
-const userResponse = () => {
+/* const userResponse = () => {
+    let valid = false;
+
+    do{ // Repeat until you get a valid response
+        const prompt = require('prompt-sync')({sigint: true});
+        let response = prompt('\n( y / n )\n');
+
+        if (response === 'y' || 'n') { // if they answer with y or n
+            valid = true;
+            return response;
+        }
+        else{
+            console.log(`Oops! Looks like you're made a mistake.\nPlease respond with 'y' for yes, and 'n' for no.`);
+        }
+    }while(valid === false)
+    
+}; */
+function userResponse(){
     let valid = false;
 
     do{ // Repeat until you get a valid response
@@ -75,9 +92,15 @@ const userResponse = () => {
     
 };
 
+
 // Opening message that only appears when the programm starts
 function welcomeMessage(response){
-    console.log("Welcome to the Friends program.\nTo print a quote, respond with either \'y\' or \'n\'.");
+    console.log("\n\nWelcome to the Friends program.\nTo print a quote, respond with either \'y\' or \'n\'.");
 }
 
-console.log(quotes[27]);
+welcomeMessage();
+if (userResponse()) {
+    printMessage();
+}
+
+//console.log(quotes[27]);
