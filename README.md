@@ -25,12 +25,15 @@ Javascript ES6
 Install node:
 
 1. Open the terminal app and type `brew update`
-
 2. Once that is done, run the command `brew install node`
-
 3. Go to the directory that contains the project
-
 4. Type `node mixed-messages.js` to run the program.
+
+Run the program:
+
+1. Type `node mixed-messages.js`
+2. Press `enter`
+3. Type 'y' to let the program print a new message or type 'n' to quit the program.
 
 ### :arrow_down: Downloads
 
